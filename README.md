@@ -35,3 +35,9 @@ Leyes UX aplicados al proyecto
 . Ley de la Similitud (Gestalt)
 
 happy path and unhappy path usado en el proyecto si (en proceso de avance para la evaluación final)
+
+Integrantes:
+Gilmer Gustavo Huachaca Bellido
+Candy Estefani Vargas Zuta
+Job Jared Ushiñahua lazo
+Rally Trujillo Richard Alexis Manuel
