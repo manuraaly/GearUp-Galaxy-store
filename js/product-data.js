@@ -6,7 +6,7 @@ const products = [
       category: "Teclados",
       price: 79.99,
       description: "Teclado mecánico con switches ultra-rápidos, iluminación RGB personalizable y reposamuñecas magnético. Perfecto para largas sesiones de gaming.",
-      image: "https://placehold.co/600x400/2d3748/edf2f7?text=Teclado+Pro+X",
+      image: "assets/images/tecladomecanico.jpg",
       stock: 15
   },
   {
@@ -15,7 +15,7 @@ const products = [
       category: "Mouses",
       price: 49.50,
       description: "Mouse ergonómico con sensor óptico de alta precisión, 8 botones programables y peso ajustable. Domina cada movimiento.",
-      image: "https://placehold.co/600x400/4a5568/e2e8f0?text=Mouse+Viper",
+      image: "assets/images/mauseoptico.jpg",
       stock: 22
   },
   {
@@ -24,7 +24,7 @@ const products = [
       category: "Audio",
       price: 89.99,
       description: "Sonido envolvente 7.1 para una inmersión total. Micrófono con cancelación de ruido y almohadillas de gel refrigerante.",
-      image: "https://placehold.co/600x400/718096/cbd5e0?text=Auriculares+Kraken",
+      image: "assets/images/auricularkraken.jpg",
       stock: 10
   },
   {
@@ -33,7 +33,7 @@ const products = [
       category: "Monitores",
       price: 450.00,
       description: "Experimenta tus juegos como nunca antes con este monitor curvo QHD de 144Hz y 1ms de respuesta. Colores vibrantes y fluidez extrema.",
-      image: "https://placehold.co/600x400/2c5282/a0aec0?text=Monitor+UltraWide",
+      image: "assets/images/monitor34p.jpg",
       stock: 5
   },
   {
@@ -42,7 +42,7 @@ const products = [
       category: "Accesorios",
       price: 25.00,
       description: "Superficie de tela optimizada para un control preciso del mouse. Base de goma antideslizante y bordes cosidos.",
-      image: "https://placehold.co/600x400/5a67d8/c3dafe?text=Alfombrilla+XXL",
+      image: "assets/images/alfonbrillaxxl.jpg",
       stock: 30
   },
   {
@@ -51,7 +51,7 @@ const products = [
     category: "Monitores",
     price: 350.00,
     description: "Experimenta tus juegos como nunca antes con este monitor curvo QHD de 144Hz y 1ms de respuesta. Colores vibrantes y fluidez extrema.",
-    image: "https://placehold.co/600x400/2c5282/a0aec0?text=Monitor+UltraWide",
+    image: "assets/images/monitor29p.jpg",
     stock: 30
   }
 ];
