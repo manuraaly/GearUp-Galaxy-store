@@ -46,7 +46,7 @@ const products = [
       stock: 30
   },
   {
-    id: 5,
+    id: 6,
     name: "Monitor Curvo Ultrawade 29\" QHD 144HZ",
     category: "Monitores",
     price: 969.00,
