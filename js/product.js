@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <h2>${product.name}</h2>
                   <p class="text-muted">Categoría: ${product.category}</p>
                   <p>${product.description}</p>
-                  <h3 class="my-3">Precio: <span class="text-success fw-bold">$${product.price.toFixed(2)}</span></h3>
+                  <h3 class="my-3">Precio: <span class="text-success fw-bold">S/.${product.price.toFixed(2)}</span></h3>
                   <p>Stock disponible: ${product.stock > 0 ? product.stock + ' unidades' : '<span class="text-danger">Agotado</span>'}</p>
                   <button class="btn btn-lg btn-primary add-to-cart-btn-detail mt-3" data-product-id="${product.id}" ${product.stock === 0 ? 'disabled' : ''}>
                       <i class="fas fa-cart-plus me-2"></i>Añadir al Carrito

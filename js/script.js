@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           <h5 class="card-title">${product.name}</h5>
                           <p class="card-text text-muted small">${product.category}</p>
                           <p class="card-text product-description">${product.description.substring(0, 80)}...</p>
-                          <h6 class="card-subtitle mb-2 fw-bold">$${product.price.toFixed(2)}</h6>
+                          <h6 class="card-subtitle mb-2 fw-bold">S/.${product.price.toFixed(2)}</h6>
                       </div>
                   </a>
                   <div class="card-footer bg-transparent border-top-0 text-center">
