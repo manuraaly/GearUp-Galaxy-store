@@ -1,0 +1,105 @@
+/* css/style.css */
+body {
+  font-family: 'Nunito Sans', sans-serif; /* Una fuente moderna y legible, asegúrate de importarla si la usas */
+  padding-top: 70px; /* Ajuste para el navbar fijo */
+  background-color: #f8f9fa; /* Un fondo suave */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #007bff !important; /* Un azul distintivo para la marca */
+}
+
+.navbar-brand:hover {
+  color: #0056b3 !important;
+}
+
+.navbar.bg-light {
+  background-color: #ffffff !important; /* Navbar blanco */
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.product-card {
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+  border: none; /* Quitar borde por defecto de Bootstrap para un look más limpio */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.product-card .card-img-top {
+  height: 200px;
+  object-fit: cover; /* Asegura que las imágenes se vean bien sin distorsionarse */
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card .product-description {
+  font-size: 0.85rem;
+  color: #6c757d;
+  flex-grow: 1; /* Empuja el precio y botón hacia abajo */
+  margin-bottom: 1rem;
+}
+
+.product-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.product-card .card-footer {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Estilos para la página del carrito */
+#cart-items-container .cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+#cart-items-container .cart-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+#cart-items-container .cart-item:last-child {
+  border-bottom: none;
+}
+
+#cart-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.quantity-input {
+  width: 60px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+/* FontAwesome icons (si los usas como en los botones) */
+/* Asegúrate de incluir el CDN de FontAwesome en tu HTML */
