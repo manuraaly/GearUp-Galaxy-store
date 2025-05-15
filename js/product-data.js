@@ -197,6 +197,15 @@ const products = [
     description: "Alfombrilla de tela con superficie optimizada para precisión y base de goma antideslizante.",
     image: "../assets/images/mousepad3000.jpg",
     stock: 30
+  },
+  {
+    id: 23,
+    name: "Teclado Mecánico KUMARA K552 Rainbow Black Red Switch- Redragon",
+    category: "Teclados",
+    price: 179.00,
+    description: "teclado jurama k5050 tecacsañ",
+    image: "../assets/images/tecladokurama5050.jpg",
+    stock: 30
   }
 ];
 
